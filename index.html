@@ -1,148 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-    <!-- My css -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY Website</title>
+    <!-- font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet" />
+    <!-- font style end -->
+    <!-- icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- icon end -->
     <link rel="stylesheet" href="style.css" />
-
-    <title>My portofolio|Muhamad Ramdan</title>
   </head>
-  <body>
-    <!-- navbar star -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #9099a2">
-      <div class="container">
-        <a class="navbar-brand" href="#">Muhamad Ramdan</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Project">Project</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
+  <>
+    <!-- navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Bela <span>Valentika</span></a>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="hamburger"><i data-feather="menu"></i></a>
       </div>
     </nav>
-
     <!-- navbar end -->
-    <!-- jumbotron star -->
-    <section class="section text-center">
-      <img src="mas.jpg" alt="Muhamad Ramdan" width="200" class="rounded-circle img-thumbnail" />
-      <h1 class="h1">Muhamad Ramdan</h1>
-      <p class="p">Aku hanya ingin menjadi seseorang yang berharga di mata keluarga dan bangsa</p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#9099a2"
-          fill-opacity="6"
-          d="M0,128L18.5,112C36.9,96,74,64,111,80C147.7,96,185,160,222,176C258.5,192,295,160,332,128C369.2,96,406,64,443,48C480,32,517,32,554,48C590.8,64,628,96,665,117.3C701.5,139,738,149,775,170.7C812.3,192,849,224,886,224C923.1,224,960,192,997,165.3C1033.8,139,1071,117,1108,138.7C1144.6,160,1182,224,1218,218.7C1255.4,213,1292,139,1329,90.7C1366.2,43,1403,21,1422,10.7L1440,0L1440,320L1421.5,320C1403.1,320,1366,320,1329,320C1292.3,320,1255,320,1218,320C1181.5,320,1145,320,1108,320C1070.8,320,1034,320,997,320C960,320,923,320,886,320C849.2,320,812,320,775,320C738.5,320,702,320,665,320C627.7,320,591,320,554,320C516.9,320,480,320,443,320C406.2,320,369,320,332,320C295.4,320,258,320,222,320C184.6,320,148,320,111,320C73.8,320,37,320,18,320L0,320Z"
-        ></path>
-      </svg>
+
+    <!-- hero start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Bela <span>Valentika</span></h1>
+        <p>
+          "When everything seems to be going against you,<br />
+          remember that the airplane takes off against the wind, not with it"
+        </p>
+        <button type="button"><span></span>Download CV<a href="#"></a></button>
+      </main>
     </section>
-    <!-- jumbotron end -->
+    <!-- hero end -->
+
     <!-- about star -->
-    <section id="about">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>About</h2>
-          </div>
+    <section class="about" id="about">
+      <h2>About <span>Me</span></h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/logo.png" alt="aboutme" />
+        </div>
+        <div class="conter">
+          <h3>Marketing</h3>
+          <p>Saya Bela Valentika,lulusan SMK prodi Rekayasa Perangkat lunak(RPl).Berpenglaman menjadi seorang marketing/sales selama 1 tahun dan juga sedang memperdalam ilmu informatika,</p>
+          <p>mahir dalam menggunakan aplikasi software komputer seperti,microsoft Word,Excel dan Power point dan juga paham mengenai text code seperti,HTML,CSS,dan JS.</p>
         </div>
       </div>
-	  <div class="row justify-content-center fs-5 text-center">
-		<div class="col-md-4">
-			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum ut iusto dolorum quis nihil? In nam cum inventore eveniet dignissimos!</p>
-			</div>
-		<div class="col-md-4">
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias tenetur quae reiciendis at modi a provident ad optio non dolorem?</p>
-	  </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#6d7993" fill-opacity="1" d="M0,256L20,256C40,256,80,256,120,250.7C160,245,200,235,240,229.3C280,224,320,224,360,202.7C400,181,440,139,480,138.7C520,139,560,181,600,202.7C640,224,680,224,720,208C760,192,800,160,840,170.7C880,181,920,235,960,218.7C1000,203,1040,117,1080,85.3C1120,53,1160,75,1200,117.3C1240,160,1280,224,1320,240C1360,256,1400,224,1420,208L1440,192L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"></path></svg>
     </section>
+
     <!-- about end -->
-    <!-- project star -->
-    <section id="Project">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>My Project</h2>
-          </div>
+
+    <!-- experience star-->
+    <section class="experience" id="experience">
+      <h2 class="heading"><span>My</span> Experience</h2>
+      <div class="experience-container">
+        <div class="experience-box">
+          <img src="img/admin.jpg" alt="">
+          <div class="experience-layer"></div>
+          <h2>Admin</h2>
+          <p>Menjadi admin selama 6 bulan selama magang di perusahaan finance</p>
+          <a href=""><i data-feather="external-link"></i></a>
         </div>
-        <div class="row">
-          <div class="col-md-4 mb-3"></div>
-          <div class="card">
-            <img src="img/project/1.jpg" class="card-img-top" alt="img 1">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        <div class="row">
-          <div class="col-md-4 mb-3"></div>
-          <div class="card">
-            <img src="img/project/2.jpg" class="card-img-top" alt="img 2">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        <div class="row">
-          <div class="col-md-4 mb-3"></div>
-          <div class="card">
-            <img src="img/project/3.jpg" class="card-img-top" alt="img 3">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
+
+        <div class="experience-box">
+          <img src="img/marketing.jpg" alt="">
+          <div class="experience-layer"></div>
+          <h2>Marketing</h2>
+          <p>Menjadi marketing selama 1 tahun di BANK</p>
+          <a href=""><i data-feather="external-link"></i></a>
+        </div>
+
+        <div class="experience-box">
+          <img src="img/market.jpg" alt="">
+          <div class="experience-layer"></div>
+          <h2>Market</h2>
+          <p>Mempunyai market pribadi di bidang bahan pokok</p>
+          <a href=""><i data-feather="external-link"></i></a>
+        </div>
+        <div class="experience-box">
+          <img src="img/coding.jpg" alt="">
+          <div class="experience-layer"></div>
+          <h2>Front end</h2>
+          <p>Membuat project mengenai front end web development</p>
+          <a href=""><i data-feather="external-link"></i></a>
+        </div>
+        <div class="experience-box">
+          <img src="img/finance.jpg" alt="">
+          <div class="experience-layer"></div>
+          <h2>finance</h2>
+          <p>bekerja di perusahaan sebagai finance di salah satu bank swasta</p>
+          <a href=""><i data-feather="external-link"></i></a>
+        </div>
+        <div class="experience-box">
+          <img src="img/path-digital-tR0jvlsmCuQ-unsplash.jpg" alt="">
+          <div class="experience-layer"></div>
+          <h2>Digital Marketing</h2>
+          <p>Mempunyai usaha berjualan makanan di dalam platform penjualan</p>
+          <a href=""><i data-feather="external-link"></i></a>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#6d7993" fill-opacity="1" d="M0,256L20,256C40,256,80,256,120,250.7C160,245,200,235,240,229.3C280,224,320,224,360,202.7C400,181,440,139,480,138.7C520,139,560,181,600,202.7C640,224,680,224,720,208C760,192,800,160,840,170.7C880,181,920,235,960,218.7C1000,203,1040,117,1080,85.3C1120,53,1160,75,1200,117.3C1240,160,1280,224,1320,240C1360,256,1400,224,1420,208L1440,192L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"></path></svg>
     </section>
-    <!-- project end -->
-    <!-- contact star -->
-    <section id="contact">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-          <h2>Contact me</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center mb-3">
-          <div class="col-md-7">
-            <form>
-              <div class="mb-3">
-                <label for="name" class="form-label">Nama lengkap</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name">
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email">
-                <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+
+    <!-- experience end -->
+
+    <!-- contact menu start -->
+<section id="contact" class="contact">
+  <h3>contact <span>saya</span></h3>
+          <p>Unutuk info lebih lanjut hubungi!!!</p>
+          
+          <div class="row">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31711.615337436364!2d107.72713123947722!3d-6.527757343903892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e693c1163da1b57%3A0xce22324a4c7fa902!2sCidahu%2C%20Pagaden%20Barat%2C%20Subang%20Regency%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1687864593866!5m2!1sen!2sid allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+            <form action="">
+              <div class="input-group">
+                <i data-feather="user"></i>
+                <input type="text" placeholder="nama">
+              </div>
+              <div class="input-group">
+                <i data-feather="mail"></i>
+                <input type="text" placeholder="email">
+              </div>
+              <div class="input-group">
+                <i data-feather="phone"></i>
+                <input type="text" placeholder="no-phone">
+              </div>
+              <br>
+              <button type="submit" class="btn">Send Massage</button>
             </form>
+
           </div>
-        </div>
-      </div>
-    </section>
-    <!-- contact end -->
-    <!-- footer -->
-    <footer style="background-color: #6d7993; text-align: center;">
-      <p class="fw-bold">created:Muhamad Ramdan</p>
-    </footer>
+</section>
+
+    <!-- contact menu end -->
+    <!-- footer start -->
+<footer>
+  <div class="socials">
+    <a href="https://instagram.com/vlntkaa_?igshid=NTc4MTIwNjQ2YQ=="><i data-feather="instagram"></i></a>
+    <a href="#"><i data-feather="youtube"></i></a>
+    <a href="#"><i data-feather="facebook"></i></a>
+  </div>
+<div class="link">
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#experience">Experience</a>
+  <a href="#contack">Contack</a>
+</div>
+<div class="credit">
+  <p>Created by <a href="">Valentika</a>. |&copy;2023.</p>
+</div>
+</footer>
     <!-- footer end -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- script -->
+    <script>
+      feather.replace();
+    </script>
+    <!-- my java -->
+    <script src="js/script.js"></script>
   </body>
 </html>
